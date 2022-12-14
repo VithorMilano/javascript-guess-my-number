@@ -32,6 +32,7 @@ document.querySelector('.check').addEventListener('click', function() {
       document.querySelector('.score').textContent = score;
     } else {
       document.querySelector('.score').textContent = 0;
+      document.querySelector('body').style.backgroundColor = '#b33939';
       displayMessage('💥 Game over!')
     }
   }
